@@ -18,7 +18,14 @@
     vertical-align: middle;
 }
 #testoLogo {
+    color: black;
     vertical-align: middle;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    padding: 20px;
+    margin-left: -20px;
+
 }
 
 body{
@@ -57,13 +64,17 @@ button{
      width: 60%;
      margin: auto;
      margin-top: 2px;
-     padding: 30px;
+     padding: 40px;
+     border-radius: 0px 0px 5px 5px;
+     margin-bottom: 30px;
 }
 
 .titoli {
     font-size: 20px;
     font-weight: bold;
+    margin-bottom: 20px;
 }
+
 
 .attività{
     font-size: 14px;
@@ -91,6 +102,7 @@ button{
 
 .Task{
     margin-top: 20px;
+    
 }
 
 #no:before{
@@ -105,3 +117,33 @@ button{
     vertical-align: middle; 
 }
 
+span{
+    font-size: 9px;
+    color: white;
+    border-radius: 9px;
+    padding: 5px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+#Editorial{
+    background-color: rgb(78, 204, 239);
+}
+#Q1{
+    background-color: rgb(126, 26, 225);
+}
+#Recruting{
+    background-color: rgb(37, 134, 39);
+}
+
+#Mobile{
+    background-color: rgb(243, 161, 31);
+}
+
+#Web{
+    background-color: rgb(230, 32, 197);
+}
+
+#Sales{
+    background-color: rgb(195, 223, 36);
+}
