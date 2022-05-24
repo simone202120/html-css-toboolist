@@ -8,15 +8,53 @@
 .logo{
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 20px;
     font-weight: 800;
+    background-color: white;
+    padding: 20px;
 }
 
 #immagineLogo{
-    width: 90px;
+    width: 80px;
     vertical-align: middle;
-    margi
 }
 #testoLogo {
     vertical-align: middle;
+}
+
+body{
+    background-color: rgba(20, 207, 39, 0.708);
+}
+.bottoni{
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#blue{
+    margin-left: 30px;
+    background-color: rgb(110, 159, 228);
+}
+
+#bianco{
+    background-color: white;
+    color: rgb(209, 203, 194);
+    border: solid 1px; 
+    border-color: rgb(209, 203, 194);
+}
+button{
+    border: none;
+    padding: 6px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+}
+
+.principale{
+    background-color: white;
+     width: 60%;
+     margin: auto;
+     margin-top: 2px;
 }
