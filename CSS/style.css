@@ -57,4 +57,51 @@ button{
      width: 60%;
      margin: auto;
      margin-top: 2px;
+     padding: 30px;
 }
+
+.titoli {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.attività{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.titoli:before{
+    content:"\25BC";
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.attività:before{
+    content:"\2713";
+    width: 17px;
+    color: rgb(78, 246, 78);
+    display: inline-block;
+    border-style: solid; 1px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+    vertical-align: middle; 
+}
+
+.Task{
+    margin-top: 20px;
+}
+
+#no:before{
+    content:"\2717";
+    width: 17px;
+    color: rgb(228, 18, 18);
+    display: inline-block;
+    border-style: solid; 1px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+    vertical-align: middle; 
+}
+
