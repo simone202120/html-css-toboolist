@@ -93,9 +93,9 @@ button{
     width: 17px;
     color: rgb(78, 246, 78);
     display: inline-block;
-    border-style: solid; 1px;
-    border-radius: 50%;
-    text-align: center;
+    border-style: solid 1px;
+    border-radius 50%;
+    text-align center;
     margin-right: 10px;
     vertical-align: middle; 
 }
@@ -117,6 +117,18 @@ button{
     vertical-align: middle; 
 }
 
+#no1:before{
+    content:"\2717";
+    width: 17px;
+    color: rgb(228, 18, 18);
+    display: inline-block;
+    border-style: solid; 1px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+    vertical-align: middle; 
+}
+
 span{
     font-size: 9px;
     color: white;
@@ -126,24 +138,24 @@ span{
     vertical-align: middle;
 }
 
-#Editorial{
+.Editorial{
     background-color: rgb(78, 204, 239);
 }
-#Q1{
+.Q1{
     background-color: rgb(126, 26, 225);
 }
-#Recruting{
+.Recruting{
     background-color: rgb(37, 134, 39);
 }
 
-#Mobile{
+.Mobile{
     background-color: rgb(243, 161, 31);
 }
 
-#Web{
+.Web{
     background-color: rgb(230, 32, 197);
 }
 
-#Sales{
+.Sales{
     background-color: rgb(195, 223, 36);
 }
